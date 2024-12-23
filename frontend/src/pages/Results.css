@@ -1,0 +1,90 @@
+
+
+
+/* General Styling */
+.results-container {
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    background-color: #f4f5f7;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+.results-header {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Results Wrapper */
+.results-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Card Styling */
+.result-card {
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.result-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.result-card p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+/* Light Blue Card */
+.blue-card {
+    background: #cce7ff;
+    border-left: 5px solid #007bff;
+}
+
+/* Light Red Card */
+.red-card {
+    background: #ffd6d6;
+    border-left: 5px solid #ff4c4c;
+}
+
+/* Download Button */
+.btn-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-download {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}

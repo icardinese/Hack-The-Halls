@@ -1,0 +1,40 @@
+.hero {
+    height: 100vh;
+    background: url('/images/christmas-banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-tagline {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background: linear-gradient(45deg, #ff6347, #ff4500);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s;
+  }
+  
+  .hero-button:hover {
+    transform: scale(1.1);
+  }
+  

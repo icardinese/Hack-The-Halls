@@ -1,0 +1,123 @@
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff6347, #ff4500);
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-image {
+  width: 60px; /* Adjust the size here */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Add spacing between logo and text */
+}
+
+.header-logo {
+  font-size: 1.8rem; /* Adjust the font size */
+  font-weight: bold;
+  text-shadow: 2px 2px #d12f2f;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* General Styles */
+body {
+  background-color: #f5f5f5;
+  color: #333; /* Default text color for content */
+  font-family: Arial, sans-serif;
+}
+
+/* Form Container */
+.upload-container, .form-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  color: #333; /* Dark text for headings */
+  margin-bottom: 20px;
+}
+
+p {
+  color: #444; /* Slightly lighter for body text */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="file"], input[type="number"], select {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333; /* Ensure input text color is dark */
+}
+
+/* Hero Section */
+.hero-title {
+  color: #333; /* Dark text for titles */
+}
+
+.hero-description {
+  color: #555; /* Slightly lighter gray for descriptions */
+}
+
+/* Cards */
+.result-card {
+  background: #fff; /* Light background for cards */
+  color: #333; /* Dark text for content */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Button Styling */
+.btn-download {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  box-shadow: 0px
+}

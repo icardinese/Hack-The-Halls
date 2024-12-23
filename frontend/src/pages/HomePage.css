@@ -1,0 +1,196 @@
+.mission {
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #f06d06, #f4e542);
+    color: white;
+    text-align: center;
+}
+
+.features {
+    padding: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.features-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.homepage-container {
+    font-family: "Arial", sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: white;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.problem-section, .solution-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.problem-section .content, .solution-section .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.problem-section .image, .solution-section .image {
+    flex: 1;
+    text-align: center;
+}
+
+.problem-section img, .solution-section img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats-section {
+    text-align: center;
+    padding: 50px;
+    background: #f1f1f1;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.stat {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #76c893, #52b69a);
+    color: white;
+}
+
+.cta-button {
+    background-color: #e63946;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+.percentage-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    width: 90%; /* Adjust width for responsiveness */
+  }
+  
+  .percentage-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .percentage-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 180px; /* Adjusted width for better spacing */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .percentage-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .percentage-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .percentage-card.green .percentage-value {
+    color: #28a745; /* Green */
+  }
+  
+  .percentage-card.blue .percentage-value {
+    color: #004085; /* Navy blue */
+  }
+  
+  .percentage-card.gold .percentage-value {
+    color: #ffbf00; /* Gold */
+  }
+  
+  .percentage-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #555; /* Subtle text color */
+  }
+  
+  
+  
+
+
+
+
+
+
+
